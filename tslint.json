@@ -8,7 +8,7 @@
       "severity": "warning"
     },
     "import-blacklist": [true, "rxjs/Rx"],
-    "max-line-length": [true, 120],
+    "max-line-length": [true, 300],
     "member-access": false,
     "member-ordering": [
       true,

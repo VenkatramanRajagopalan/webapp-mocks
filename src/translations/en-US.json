@@ -1,7 +1,11 @@
 {
-  "APP_NAME": "webapp-mocks",
+  "APP_NAME": "WebMocks",
   "About": "About",
   "Hello world !": "Hello world !",
   "Home": "Home",
-  "Version": "Version"
+  "Version": "Version",
+  "home": {
+    "title": "Web Mocks",
+    "subtitle": "Mock UI implementation of some of the well-known websites"
+  }
 }

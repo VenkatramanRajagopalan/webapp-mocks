@@ -1,10 +1,6 @@
-<div class="container-fluid">
-  <div class="jumbotron text-center">
-    <h1>
-      <img class="logo" src="assets/ngx-rocket-logo.png" alt="angular logo" />
-      <span translate>Hello world !</span>
-    </h1>
-    <app-loader [isLoading]="isLoading"></app-loader>
-    <q [hidden]="isLoading">{{ quote }}</q>
+<div class="container-fluid home">
+  <div class="text-center">
+    <h1 class="page-title">{{ 'home.title' | translate }}</h1>
+    <p>{{ 'home.subtitle' | translate }}</p>
   </div>
 </div>
