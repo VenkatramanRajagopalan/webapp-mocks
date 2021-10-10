@@ -9,8 +9,7 @@ const routes: Routes = [
   ]),
   {
     path: APP_ROUTES.MOCK_APP,
-    loadChildren: () =>
-      import('./mock-app-container/mock-app-container-routing.module').then((m) => m.MockAppContainerRoutingModule),
+    loadChildren: () => import('./mock-app-container/mock-app-container.module').then((m) => m.MockAppContainerModule),
   },
   // Fallback when no prior route is matched
   { path: '**', redirectTo: '', pathMatch: 'full' },
